@@ -1,0 +1,156 @@
+# Operating Model
+
+This document defines the operating model for a tool-agnostic SDLC change governance framework in regulated finance, enterprise transformation, and high-control environments.
+
+The model describes how governed change moves from intake through review, build, UAT, approval, release readiness, implementation, post-implementation review, and closure.
+
+It is designed to improve traceability, accountability, evidence quality, release discipline, and decision reliability across business, technology, finance, risk, 
+operations, and control stakeholders.
+
+##
+
+## Purpose
+
+The operating model defines how change governance works in practice.
+
+It clarifies:
+
+- who participates in governed change
+- what must be evidenced
+- when control gates apply
+- how lifecycle movement is controlled
+- how risks and defects are surfaced
+- how release readiness is assessed
+- how implementation outcomes are reviewed
+- how tools support, but do not replace, governance
+
+The purpose is not to create bureaucracy. The purpose is to ensure that meaningful enterprise change is visible, reviewable, owned, tested, approved, and closed with appropriate evidence.
+
+##
+
+## Operating Principle
+
+Governed change should not advance because work appears complete.
+
+Governed change should advance because the required conditions for movement have been met.
+
+Those conditions may include:
+
+- clear business objective
+- defined owner
+- documented requirements
+- risk classification
+- testable acceptance criteria
+- UAT evidence
+- defect disposition
+- approval record
+- release-readiness confirmation
+- implementation validation
+- post-implementation review
+
+The workflow tool records the movement. The operating model defines whether the movement is justified.
+
+##
+
+## Scope
+
+This operating model applies to SDLC, process, data, reporting, control, and workflow changes that may affect regulated or high-control business environments.
+
+Example change types include:
+
+- finance reporting logic updates
+- ledger or subledger process changes
+- data quality remediation workflows
+- reconciliation process changes
+- operational control enhancements
+- regulatory reporting readiness changes
+- workflow automation changes
+- dashboard or production reporting changes
+- system configuration changes
+- exception-management workflow changes
+- access, entitlement, or role-based workflow changes
+- post-implementation remediation items
+
+##
+
+## Operating Model Components
+
+The model contains ten core components.
+
+| Component | Purpose |
+|---|---|
+| Change Intake | Captures the business need, scope, ownership, and initial risk context |
+| Requirements Review | Confirms that the change is sufficiently defined and testable |
+| Risk Classification | Determines the governance depth required for the change |
+| Control Gates | Defines evidence and approval conditions for lifecycle movement |
+| Build / Configuration | Executes the approved technical, process, or data change |
+| UAT Evidence | Demonstrates business validation against expected outcomes |
+| Defect / Issue Disposition | Tracks failed tests, exceptions, accepted risks, or blocked items |
+| Release Readiness | Confirms that implementation conditions have been met |
+| Implementation Validation | Confirms the change was deployed or operationalized as expected |
+| Post-Implementation Review | Reviews outcome, defects, lessons learned, and closure readiness |
+
+---
+
+## Governance Roles
+
+This model assumes cross-functional participation. A single role may perform multiple functions depending on organizational size, but ownership should remain clear.
+
+| Role | Primary Responsibility |
+|---|---|
+| Change Requestor | Initiates the change and describes the business need |
+| Business Owner | Owns the business outcome and approves readiness for use |
+| Technology Owner | Owns technical feasibility, build/configuration, and implementation coordination |
+| Product Owner / Process Owner | Clarifies requirements, prioritization, and operational fit |
+| Business Analyst | Translates needs into requirements, acceptance criteria, and workflow documentation |
+| UAT Coordinator | Organizes testing scope, evidence capture, and defect tracking |
+| Tester / Validator | Executes test scenarios and records outcomes |
+| Risk / Control Partner | Reviews control implications, evidence sufficiency, and risk treatment |
+| Release Manager | Coordinates release timing, dependencies, approvals, and implementation readiness |
+| Data Owner / Reporting Owner | Reviews impact on data lineage, reporting logic, or downstream use |
+| Approver | Provides required signoff based on role, risk level, or governance policy |
+| Post-Implementation Reviewer | Confirms implementation outcome and unresolved follow-up items |
+
+##
+
+## Responsibility Model
+
+A governed change should have explicit ownership across the lifecycle.
+
+| Lifecycle Area | Accountable Role | Supporting Roles |
+|---|---|---|
+| Business objective | Business Owner | Change Requestor, Product Owner |
+| Requirements | Product Owner / Business Analyst | Business Owner, Technology Owner |
+| Technical feasibility | Technology Owner | Business Analyst, Release Manager |
+| Risk classification | Business Owner / Risk Partner | Technology Owner, Control Partner |
+| UAT execution | Business Owner / UAT Coordinator | Testers, Business Analyst |
+| Defect disposition | Business Owner / Technology Owner | UAT Coordinator, Risk Partner |
+| Release readiness | Release Manager | Business Owner, Technology Owner, Risk Partner |
+| Implementation | Technology Owner / Release Manager | Operations, Product Owner |
+| Post-implementation review | Business Owner | Technology Owner, Risk Partner, Release Manager |
+| Closure | Business Owner / Governance Owner | Supporting stakeholders |
+
+The objective is not to create excessive signoff. The objective is to prevent unclear ownership from becoming hidden implementation risk.
+
+##
+
+## Lifecycle Overview
+
+The model uses the following illustrative lifecycle:
+
+→ Intake Review
+→ Draft BRD & FRD
+→ Requirements Review
+→ Build / Configuration
+→ Governance review & approval
+→ Development
+→ SIT creation, review and approval
+→ UAT Ready
+→ UAT In Progress
+→ UAT Evidence Review
+→ UAT completion
+→ Production Release Readiness
+→ Production deployment & implementation
+→ Post-Implementation Review and closure approval
+→ Post production issue identification
+→ Production Closeout
