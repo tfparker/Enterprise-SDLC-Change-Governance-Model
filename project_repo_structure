@@ -1,0 +1,34 @@
+enterprise-sdlc-change-governance-model/
+│
+├── README.md
+├── governance_boundary.md
+├── operating_model.md
+├── change_lifecycle.md
+├── control_gate_model.md
+├── risk_classification_model.md
+├── uat_evidence_standard.md
+├── release_readiness_standard.md
+├── post_implementation_review.md
+├── role_responsibility_matrix.md
+├── tool_agnostic_workflow_mapping.md
+│
+├── templates/
+│   ├── change_request_template.md
+│   ├── business_requirement_template.md
+│   ├── uat_evidence_template.md
+│   ├── release_readiness_template.md
+│   ├── approval_record_template.md
+│   └── post_implementation_review_template.md
+│
+├── examples/
+│   ├── fictional_standard_change.md
+│   ├── fictional_emergency_change.md
+│   ├── fictional_data_quality_remediation_change.md
+│   └── fictional_reporting_logic_change.md
+│
+└── tool-mapping/
+    ├── jira_mapping.md
+    ├── servicenow_mapping.md
+    └── azure_devops_mapping.md
+
+    
