@@ -4,18 +4,14 @@
 
 This repository presents a tool-agnostic SDLC change governance operating model for regulated finance and enterprise transformation environments.
 
-The framework demonstrates how change intake, requirements, risk classification, UAT evidence, approval gates, release readiness, and post-implementation review can be structured to improve auditability, 
-reduce undocumented production change, and strengthen cross-functional delivery discipline.
+The framework demonstrates how change intake, requirements review, risk classification, UAT evidence, approval gates, release readiness, and post-implementation review can be structured to improve auditability, reduce undocumented production change, and strengthen cross-functional delivery discipline.
 
-The model can be adapted to workflow platforms such as JIRA, ServiceNow, Azure DevOps, Rally, or similar systems. The repository does not depend on any specific tool configuration.
-
-The workflow tool is not the governance model. The governance model defines the control expectations; the tool records, routes, and evidences them.
-The model is not dependent on a specific workflow platform. It can be adapted to tools such as JIRA, ServiceNow, Azure DevOps, Rally, Linear, or similar delivery-management systems.
+The model can be adapted to workflow platforms such as JIRA, ServiceNow, Azure DevOps, Rally, Linear, or similar delivery-management systems. It does not depend on any specific tool configuration.
 
 > The workflow tool is not the governance model.  
 > The governance model defines the control expectations; the tool records, routes, and evidences them.
 
-##
+---
 
 ## Purpose
 
@@ -34,7 +30,7 @@ This framework demonstrates how SDLC change governance can be structured to impr
 
 The repository is intended as a portfolio artifact demonstrating governance-first operating model design for regulated and high-control environments.
 
-##
+---
 
 ## What This Demonstrates
 
@@ -57,7 +53,7 @@ It covers:
 
 The focus is not on software development methodology alone. The focus is on how business, technology, finance, risk, operations, and control stakeholders can coordinate change in a way that is visible, reviewable, and accountable.
 
-###
+---
 
 ## Core Principle
 
@@ -65,26 +61,24 @@ A workflow status should not merely indicate that work moved forward.
 
 It should indicate that the required governance conditions for movement were met.
 
-For example:
-
 | Lifecycle Movement | Governance Question |
 |---|---|
 | Intake → Review | Is the business need sufficiently defined? |
 | Review → Build | Are requirements and ownership clear? |
 | Build → UAT | Is the change ready for business validation? |
-| UAT → Approval | Is evidence complete and defects dispositioned? |
+| UAT → Approval | Is evidence complete and are defects dispositioned? |
 | Approval → Release Ready | Are risks, dependencies, and approvals documented? |
 | Release → Closed | Was implementation completed and reviewed? |
 
-##
+---
 
 ## Framework Scope
 
-This repository defines a generalized SDLC governance model across the following areas:
+This repository defines a generalized SDLC governance model across the following areas.
 
 ### 1. Change Intake
 
-Defines the minimum information needed before a change can enter review.
+Change intake defines the minimum information needed before a change can enter governance review.
 
 Examples include:
 
@@ -100,7 +94,7 @@ Examples include:
 
 ### 2. Change Lifecycle
 
-Defines the major lifecycle stages for governed change.
+The change lifecycle defines the major stages for governed change.
 
 Illustrative lifecycle:
 
